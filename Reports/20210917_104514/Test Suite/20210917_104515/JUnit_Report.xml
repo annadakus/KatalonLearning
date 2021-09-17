@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite" time="15.96" tests="2" failures="0" errors="0">
+   <testsuite name="Test Suite" tests="2" failures="0" errors="0" time="15.96" skipped="0" timestamp="2021-09-17 10:45:18" hostname="akyba - DESKTOP-O2DJ73S" id="Test Suites/Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\cov2\\git\\KatalonLearning\\Reports\\20210917_104514\\Test Suite\\20210917_104515"/>
+         <property name="logFiles" value="C:\\Users\\cov2\\git\\KatalonLearning\\Reports\\20210917_104514\\Test Suite\\20210917_104515\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="akyba - DESKTOP-O2DJ73S"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.1.0.208"/>
+         <property name="browser" value="Chrome 93.0.4577.82"/>
+         <property name="hostAddress" value="192.168.0.103"/>
+         <property name="sessionId" value="2d5d795337b5ff63090a6c24bdd74519"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Test Case by Tom" time="9.414" classname="Test Cases/Test Case by Tom" status="PASSED">
+         <system-out><![CDATA[2021-09-17 10:45:18 - [TEST_CASE][PASSED] - Test Cases/Test Case by Tom: Test Cases/Test Case by Tom
+
+2021-09-17 10:45:18 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-09-17 10:45:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-09-17 10:45:18 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-09-17 10:45:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-09-17 10:45:20 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2021-09-17 10:45:22 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2021-09-17 10:45:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2021-09-17 10:45:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2021-09-17 10:45:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Username_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+2021-09-17 10:45:23 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+2021-09-17 10:45:23 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Password_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): Text ****** has been set on object 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+2021-09-17 10:45:24 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+2021-09-17 10:45:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2021-09-17 10:45:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2021-09-17 10:45:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date")): Object: 'Object Repository/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date' is clicked on
+
+2021-09-17 10:45:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date' is clicked on
+
+2021-09-17 10:45:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/td_30")): Object: 'Object Repository/Page_CURA Healthcare Service/td_30' is clicked on
+
+2021-09-17 10:45:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/td_30' is clicked on
+
+2021-09-17 10:45:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment"), "Test"): Text 'Test' is set on object 'Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment'
+
+2021-09-17 10:45:26 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment'
+
+2021-09-17 10:45:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/button_Book Appointment")): Object: 'Object Repository/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+2021-09-17 10:45:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+2021-09-17 10:45:27 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-09-17 10:45:27 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test Case by Kim" time="5.843" classname="Test Cases/Test Case by Kim" status="PASSED">
+         <system-out><![CDATA[2021-09-17 10:45:27 - [TEST_CASE][PASSED] - Test Cases/Test Case by Kim: Test Cases/Test Case by Kim
+
+2021-09-17 10:45:27 - [TEST_STEP][PASSED] - openBrowser("https://www.katalon.com/"): Browser is opened with url: 'https://www.katalon.com/'
+
+2021-09-17 10:45:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-09-17 10:45:27 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-09-17 10:45:32 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.katalon.com/'
+
+2021-09-17 10:45:32 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-09-17 10:45:33 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-09-17 10:45:18 - [TEST_SUITE][PASSED] - Test Suite: Test Cases/Test Case by Kim]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

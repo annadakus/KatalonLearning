@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite,Chrome 93.0.4577.82,,,2021-09-17 10:54:52,2021-09-17 10:55:11,18.827s,PASSED
+,,,,,,,
+Test Cases/Test Case by Tom,Chrome 93.0.4577.82,,,2021-09-17 10:54:53,2021-09-17 10:55:05,12.565s,PASSED
+"openBrowser("""")",Chrome 93.0.4577.82,,,2021-09-17 10:54:53,2021-09-17 10:54:57,3.631s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 93.0.4577.82,,,2021-09-17 10:54:57,2021-09-17 10:54:58,1.583s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 93.0.4577.82,,,2021-09-17 10:54:58,2021-09-17 10:54:59,0.752s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Chrome 93.0.4577.82,,,2021-09-17 10:54:59,2021-09-17 10:55:00,0.871s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Chrome 93.0.4577.82,,,2021-09-17 10:55:00,2021-09-17 10:55:00,0.538s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Login""))",Chrome 93.0.4577.82,,,2021-09-17 10:55:00,2021-09-17 10:55:01,0.868s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date""))",Chrome 93.0.4577.82,,,2021-09-17 10:55:01,2021-09-17 10:55:02,0.504s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/td_30""))",Chrome 93.0.4577.82,,,2021-09-17 10:55:02,2021-09-17 10:55:02,0.546s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment""), ""Test"")",Chrome 93.0.4577.82,,,2021-09-17 10:55:02,2021-09-17 10:55:03,0.763s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Book Appointment""))",Chrome 93.0.4577.82,,,2021-09-17 10:55:03,2021-09-17 10:55:04,0.716s,PASSED
+closeBrowser(),Chrome 93.0.4577.82,,,2021-09-17 10:55:04,2021-09-17 10:55:05,1.272s,PASSED
+,,,,,,,
+Test Cases/Test Case by Kim,Chrome 93.0.4577.82,,,2021-09-17 10:55:05,2021-09-17 10:55:11,5.833s,PASSED
+"openBrowser(""https://www.katalon.com/"")",Chrome 93.0.4577.82,,,2021-09-17 10:55:05,2021-09-17 10:55:10,4.851s,PASSED
+closeBrowser(),Chrome 93.0.4577.82,,,2021-09-17 10:55:10,2021-09-17 10:55:11,0.679s,PASSED
